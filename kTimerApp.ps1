@@ -37,7 +37,7 @@ public class MouseMove {
         SetCursorPos(p.X + dx, p.Y + dy);
     }
 }
-"@
+"@ -ErrorAction SilentlyContinue
 
 # Setup log file on Desktop with dated filename
 $logDate = Get-Date -Format "yyyy-MM-dd"
